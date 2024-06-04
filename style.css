@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.svg {
+  height: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 230px auto;
+  height: 100vh;
+}
+
+.dashboard {
+  height: 100%;
+  padding: 10px;
+  background-color: #1992d4;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.icontitle {
+  color: white;
+  font-weight: 700;
+}
+
+.title-icon {
+  filter: invert(100%);
+  width: 40px;
+}
+
+.links, .links-top, .links-bottom {
+  display: grid;
+}
+
+.links {
+  row-gap: 25px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.link {
+  margin-left: 10px;
+  display: flex;
+}
+
+.icon {
+  filter: invert(100%);
+  margin-right: 15px;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 140px auto;
+  background-color: #e2e8f0;
+}
+
+.content-top {
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-bottom {
+  display: grid;
+  grid-template-columns: auto 280px;
+}
+
+.content-top-top {
+  display: grid;
+  grid-template-columns: auto 255px;
+  align-items: center;
+  margin-right: 38px;
+}
+
+.form-search {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+
+.search {
+  width: 450px;
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 10px;
+  height: 23px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.avatar-right {
+  border-radius: 100%;
+  width: 40px;
+}
+.content-top-top-right {
+  display: grid;
+  grid-template-columns: 25px auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.user-top {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+.user-top p {
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.content-top-bot {
+  display: grid;
+  grid-template-columns: auto 350px;
+  padding-bottom: 8px;
+}
+
+.user-bottom {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.user-bottom {
+  font-weight: 700;
+}
+
+.saludo-user {
+  margin-left: 15px;
+}
+
+.user-bottom p {
+  font-size: 18px;
+}
+
+.user-bottom span {
+  font-size: 13px;
+}
+
+
+.user-bottom img{
+  height: 55px;
+  border-radius: 100%;
+}
+
+.blue-button {
+  width: 75px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1992d4;
+  color: #fff;
+}
+
+.content-top-bot-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.projects-container {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.project {
+  border-left: 5px solid #eeb635;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+  display: grid;
+}
+
+.project-bottom {
+  margin-top: 20px;
+  margin-right: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.project p {
+  color:#9d9d9d;
+}
+
+.announcement-trend {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  padding: 10px;
+  padding-top: 0;
+}
+
+.ann, .trend {
+  margin: 5px;
+  margin-top: 15px;
+  display: grid;
+  grid-template-rows: 30px auto;
+}
+
+.ann h3, .trend h3 {
+  padding-bottom: 7px;
+}
+
+.ann-content, .trend-content {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ann-content {
+  padding: 20px;
+}
+
+.ann-content h3 {
+  font-size: 15px;
+}
+
+.ann-content p {
+  font-size: 13px;
+}
+
+.ann-content hr {
+  color: #e0e0e0;
+  margin: 12px 0;
+}
+
+.single-trend {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.single-trend img {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.single-trend h4 {
+  font-size: 15px;
+}
+
+.single-trend p {
+  font-size: 13px;
+  color: #767676;
+}
