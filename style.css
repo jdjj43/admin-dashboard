@@ -200,6 +200,7 @@ body, html {
   height: 200px;
   padding: 20px 10px 10px 10px;
   display: grid;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project-bottom {
